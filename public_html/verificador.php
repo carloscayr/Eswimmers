@@ -24,18 +24,18 @@
 					$_SESSION["username"]=$username;
 					$_SESSION["tipo"]="cliente";
 					
-					echo '<script>href.location="index.php";</script>';
+					echo '<script>location.href="index.php";</script>';
 				}else{
-					echo '<script>href.location="registro.php?mensaje=no coincide";</script>';
+					echo '<script>location.href="registro.php?mensaje=noCoincide";</script>';
 				}
 			}else{
-				echo '<script>href.location="registro.php?mensaje=no coincide";</script>';
+				echo '<script>location.href="registro.php?mensaje=noCoincidePass";</script>';
 			}
 			
 		}else{
-			echo '<script>href.location="registro.php?mensaje=vacios";</script>';
+			echo '<script>location.href="registro.php?mensaje=vacios";</script>';
 		}
 	}else {
-		echo '<script>href.location="registro.php?mensaje=vacios";</script>';
+		echo '<script>location.href="registro.php?mensaje=vacios";</script>';
 	}
 ?>
