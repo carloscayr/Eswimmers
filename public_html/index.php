@@ -105,9 +105,9 @@ ddsmoothmenu.init({
                     <li><a href="#">Sub menu 5</a></li>
               </ul>
             </li>
-            <li><a href="faqs.php">FAQs</a></li>
-            <li><a href="checkout.php">Checkout</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
         <br style="clear: left" />
     </div> <!-- end of templatemo_menu -->
@@ -294,6 +294,7 @@ ddsmoothmenu.init({
     </div> <!-- END of footer -->   
    
 </div>
+
 
 <script type='text/javascript' src='js/logging.js'></script>
 </body>
