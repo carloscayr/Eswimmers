@@ -16,6 +16,11 @@ include $cryptinstall;
 				<td>Nombre de Usuario</td>
 				<td><input name="username"/></td>
 			</tr>
+			
+			<tr>
+				<td>Correo</td>
+				<td><input name="correo"/></td>
+			</tr>
 			<tr>
 				<td>Password</td>
 				<td><input name="password" type="password"/></td>
@@ -24,17 +29,18 @@ include $cryptinstall;
 				<td>Confirma Password</td>
 				<td><input name="pass" type="password"/></td>
 			</tr>
-			<tr>
-				<td>Nombre</td>
-				<td><input name="name"/></td>
-			</tr>
-			<tr>
-				<td>Apellido</td>
-				<td><input name="apellido"/></td>
-			</tr>
+			
 			<tr>
 				<td>NIT</td>
 				<td><input name="nit"/></td>
+			</tr>
+			<tr>
+				<td>direccion</td>
+				<td><input name="direccion"/></td>
+			</tr>
+			<tr>
+				<td>Fecha nacimiento</td>
+				<td><input name="fecha_naci"/></td>
 			</tr>
 			<tr>
 				<td></td>
